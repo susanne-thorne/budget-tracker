@@ -31,6 +31,8 @@ export default function AddTransaction({ value, balance }) {
       setBalance(value === "income" ? balance + +amount : balance - +amount);
       setError("");
       setDate("");
+      setAmount("");
+      setDescription("");
       setShowPopup(false);
     }
   };
