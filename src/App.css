@@ -253,3 +253,29 @@ button:focus-visible {
   font-weight: 800;
   padding: 15px;
 }
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #f6f8fa;
+    color: #1a1a1a;
+  }
+
+  .display-balance h2 {
+    background: #f0f0f5;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    color:#1a1a1a;
+  }
+
+  button {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+
+  .popup {
+    background-color: #d0c2c4;
+  }
+
+  .transaction-area {
+    color:#1a1a1a;
+  }
+}
